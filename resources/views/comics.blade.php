@@ -1,4 +1,4 @@
-@dump($comicsList)
+
 @extends('layouts.public')
 
 @section('content')
