@@ -117,3 +117,30 @@ h5 {
     margin-left: auto;
 }
 
+.darkBanner{
+    background-color: $colorDark;
+}
+
+.hidden{
+    display: none;
+}
+.absolute.hidden{
+
+    color: white;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.top{
+    top: 5%;
+    background-color: rgba(0, 0, 0, 0.652);
+}
+
+.bottom{
+    bottom: 35%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.652);
+}
+.card:hover .hidden{
+    display: block;
+}
